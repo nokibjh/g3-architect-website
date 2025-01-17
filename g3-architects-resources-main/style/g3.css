@@ -158,6 +158,20 @@
       margin-left: 20px;
     }
   }
+  /* sponsors related styles */
+  .sponsor-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .sponsors-companies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .sponsors-companies img{
+    filter: grayscale(100%);
+  }
 
   /* medium size device */
   @media  screen and (min-width:576px) and (max-width:992px) {
